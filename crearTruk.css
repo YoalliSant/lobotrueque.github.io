@@ -1,0 +1,171 @@
+* {
+    box-sizing: inherit;
+  }
+body {
+    background:#fff;
+    background-size: cover;
+    font-family: 'Varela Round', sans-serif;
+  }
+  .logo1{
+    background: #fff;
+    color: #026670;
+    height: 110px;
+    top: 0px;
+  }
+  .search input[type=text]{
+    width:200px;
+    height:25px;
+    border-radius:25px;
+  }
+  .search{
+    position:absolute;
+    float:right;
+    margin:7px;
+    left: 970px;
+    top: 50px;
+  } 
+  
+  #main-header {
+    background: #9FEDD7;
+    color: white;
+    height: 80px;
+    top: 0px;
+  }	
+  #main-header a {
+      color: #026670;
+    }
+  
+  #logo-header {
+    float: left;
+    padding: 25px 0 0 20px;
+    text-decoration: none;
+  }
+    #logo-header:hover {
+      color: #9FEDD7;
+    }
+    
+    #logo-header .site-name {
+      display: block;
+      font-weight: 900;
+      font-size: 3em;
+    }
+    
+    #logo-header .site-desc {
+      display: block;
+      font-weight: 300;
+      font-size: 0.8em;
+      color: rgb(32, 32, 32);
+    }
+  
+    img {
+      height: 100%;
+      width: 160%;
+      object-fit: contain;
+     }
+  
+  .imagen {
+    width:80px;
+    position:absolute;
+    left: 390px;
+    top: 18px;
+  }
+  
+/* ---------- NAVEGACIÓN ---------- */
+  nav {
+  float: right;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+  }
+  
+    nav ul li {
+      display: inline-block;
+      line-height: 80px;
+    }
+      
+      nav ul li a {
+        display: block;
+        padding: 0 10px;
+        text-decoration: none;
+      }
+      
+        nav ul li a:hover {
+          background: #fce181;
+        }  
+  
+  
+  html {
+    box-sizing: border-box;
+  }
+
+/* ---------- CAJA ---------- */
+.box{
+    border-radius: 1.25em;
+	width: 490px;
+	height: 585px;
+	background: #026670;
+	color: #fff;
+	top: 80%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 40px 30px;
+}
+.box h2 {
+	margin: 0;
+	padding: 0 0 0px;
+	text-align: center;
+	font-size: 22px;
+  }
+
+  .box label {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+  }
+  
+  .box input {
+	width: 100%;
+	margin-bottom: 20px;
+  }
+  
+  .box input[type="text"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+  }
+
+  .box input[type="submit"] {
+    border: none;
+    width: 150px;
+    height: 40px;
+    background: #9FEDD7;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #fce181;
+    color: #026670;
+  }
+  
+  .box a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+  }
+  
+  .box a:hover {
+	color: #fff;
+  }
